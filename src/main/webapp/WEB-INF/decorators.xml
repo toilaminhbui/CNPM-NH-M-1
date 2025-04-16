@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+
+	<!-- apply nguoi_dung template -->
+<!--	<decorator name="chu_ki_do" page="user.jsp">-->
+<!--		<pattern>/nguoi_dung/quan_ly_chung</pattern>-->
+<!--	</decorator>-->
+	<decorator name="chu_ki_do" page="user.jsp">
+		<pattern>/nguoi_dung/*</pattern>
+	</decorator>
+	
+ 	<decorator name="chu_ki_do" page="user.jsp">
+		<pattern>/nguoi_dung/chu_ki_do</pattern>
+	</decorator>
+	
+	<decorator name="lich_ghi_chi_so" page="user.jsp">
+		<pattern>/nguoi_dung/lich_ghi_chi_so</pattern>
+	</decorator>
+	
+	<decorator name="quan_ly_chung" page="user.jsp">
+		<pattern>/nguoi_dung/quan_ly_chung</pattern>
+	</decorator>
+	
+	<decorator name="tra_cuu_hoa_don" page="user.jsp">
+		<pattern>/nguoi_dung/tra_cuu_hoa_don</pattern>
+	</decorator>
+	
+	<decorator name="thong_tin_hoa_don" page="user.jsp">
+		<pattern>/nguoi_dung/thong_tin_hoa_don</pattern>
+	</decorator>
+	
+	<decorator name="lich_su_thanh_toan" page="user.jsp">
+		<pattern>/nguoi_dung/lich_su_thanh_toan</pattern>
+	</decorator>
+	
+	<decorator name="lich_tam_ngung_cap_dien" page="user.jsp">
+		<pattern>/nguoi_dung/lich_tam_ngung_cap_dien</pattern>
+	</decorator>
+	
+	<decorator name="thong_tin_do_xa" page="user.jsp">
+		<pattern>/nguoi_dung/lich_su_do</pattern>
+	</decorator>
+	
+	<decorator name="lich_su_lien_he" page="user.jsp">
+		<pattern>/nguoi_dung/lich_su_lien_he</pattern>
+	</decorator>
+	
+	<decorator name="lich_su_yeu_cau" page="user.jsp">
+		<pattern>/nguoi_dung/lich_su_yeu_cau</pattern>
+	</decorator>
+	
+	<decorator name="lich_su_yeu_cau" page="user.jsp">
+		<pattern>/nguoi_dung/quan_ly_tai_khoan</pattern>
+	</decorator>
+	
+							<!--	NHAN VIEN -->
+							
+	<decorator name="quan_ly_lich_su_do_khach_hang" page="employee.jsp">
+		<pattern>/nhan_vien/*</pattern>
+	</decorator>						
+	
+	<decorator name="quan_ly_lich_su_do_khach_hang" page="employee.jsp">
+		<pattern>/nhan_vien/quan_ly_chung</pattern>
+	</decorator>
+	
+	<decorator name="quan_ly_thong_tin_nguoi_dung" page="employee.jsp">
+		<pattern>/nhan_vien/quan_ly_thong_tin_khach_hang</pattern>
+	</decorator>
+	
+	<decorator name="quan_ly_thong_tin_nguoi_dung" page="employee.jsp">
+		<pattern>/nhan_vien/quan_ly_tai_khoan_khach_hang</pattern>
+	</decorator>
+	
+	<decorator name="quan_ly_lich_su_do_khach_hang" page="employee.jsp">
+		<pattern>/nhan_vien/quan_ly_lich_ghi_chi_so_khach_hang</pattern>
+	</decorator>
+		
+	<decorator name="quan_ly_lich_su_do_khach_hang" page="employee.jsp">
+		<pattern>/nhan_vien/quan_ly_lich_su_do_khach_hang</pattern>
+	</decorator>
+	
+	<decorator name="quan_ly_lich_su_do_khach_hang" page="employee.jsp">
+		<pattern>/nhan_vien/quan_ly_lich_su_do_khach_hang/tim_kiem</pattern>
+	</decorator>
+	
+	
+							<!--	QUAN LY  -->
+	<decorator name="quanly" page="manager.jsp">
+		<pattern>/quan_ly/*</pattern>
+	</decorator>
+	
+</decorators>
