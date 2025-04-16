@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%@ taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c" %>
+	
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,7 +83,7 @@
 <body>
 <div class="sidebar" style="overflow-y: auto; height: 100vh;">
     <div class="sidebar-logo" style="display: flex; justify-content: center">
-      <img src="https://downloadlogomienphi.com/sites/default/files/logos/download-logo-vector-hoc-vien-cong-nghe-buu-chinh-vien-thong-mien-phi.jpg" alt="">
+<img src="<c:url value='/resources/ptit-logo.jpg'/>" alt="logo Ptit" class="logo">
     </div>
     <ul class="nav flex-column">
         <li class="nav-item">

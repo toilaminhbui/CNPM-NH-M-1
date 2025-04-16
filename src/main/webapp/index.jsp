@@ -64,7 +64,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg" style="height: 90px;">
                             <div class="logo-name">
-                                <img src="https://downloadlogomienphi.com/sites/default/files/logos/download-logo-vector-hoc-vien-cong-nghe-buu-chinh-vien-thong-mien-phi.jpg" alt="logo Ptit" class="logo"> 
+<img src="<c:url value='/resources/ptit-logo.jpg'/>" alt="logo Ptit" class="logo">
                                 <h2>PTITHCM</h2>
                             </div>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

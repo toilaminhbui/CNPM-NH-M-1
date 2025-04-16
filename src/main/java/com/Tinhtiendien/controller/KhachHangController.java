@@ -183,6 +183,12 @@ public class KhachHangController {
 		
 		model.addAttribute("nam_dangky", nam_dangky);
 //        
+		
+		   if (monthAndYear == null || monthAndYear.trim().isEmpty()) {
+		        model.addAttribute("error", "Vui lòng chọn tháng/năm để tra cứu");
+		        model.addAttribute("issetHoaDon", false);
+		        return "/user/tra_cuu_hoa_don";
+		    }
 	    String[] parts = monthAndYear.split("/");
 	    int thang = Integer.parseInt(parts[0]);
 	    int nam = Integer.parseInt(parts[1]);

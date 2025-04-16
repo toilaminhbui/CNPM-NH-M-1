@@ -4,6 +4,11 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt"  prefix="fmt" %>
 <%@ page import="java.text.SimpleDateFormat" %>
 <%@ page import="java.util.Date" %>
+<%@ page import="java.util.Calendar" %>
+<%
+    int currentYear = Calendar.getInstance().get(Calendar.YEAR);
+    request.setAttribute("currentYear", currentYear);
+%>
 
 <!DOCTYPE html>
 <html>
@@ -235,10 +240,7 @@
 								    </div>
 								    <div class="col">
 								      	<select class="form-select addYear" id="addngaydo" name="nam" required>
-		                				<option value="0" selected hidden>Năm</option>
-				                		<c:forEach var = "i" begin = "1900" end = "2024">
-				                    		<option value="${i}">${i}</option>
-				                    	</c:forEach>
+		                				<<option selected value="${currentYear }">${currentYear }</option>
 		                				</select>
 								    </div>
 								    <h6 style="color:red; padding-left:5px; padding-top:5px" id="addngaydo">${err_mess_addNgaydo}</h6>
